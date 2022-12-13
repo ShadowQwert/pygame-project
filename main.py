@@ -138,7 +138,7 @@ if __name__ == '__main__':
 
     # основные объекты
     # короче - что бы создавать объекты для врага пишешь здоровье + координаты по таблице, для коллоны просто корды
-    mainB = MainBoard(16, 16, 7, 7, 'GeenFlor.jpg')
+    mainB = MainBoard(16, 16, 7, 7, 'data/GeenFlor.jpg')
     mainB.set_view(100, 100, 128)
     player = Player(7, 7, mainB)
     enemy1 = Enemy(1, 3, 5, mainB)
